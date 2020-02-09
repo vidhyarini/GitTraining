@@ -2,4 +2,14 @@ Squash and commit is to add two commits combined into one commit into Git, as it
 eg: code changed in a line and changed the variable name in the same line
 This can be used during pull request from git
 
+in Intellij -> Squash into is same as squash and commit in git
+
 Reword: reedit the committed text before push
+
+Rebase: Used to have clean master without conflicts. See 01
+    -master has 1,2,3,7,8 commits
+    -After 3rd commit the code is cloned to feature branch
+    -One feature branch has 4,5,6 commits
+    -When seeing the master new commits 7,8 are added
+    -Then conflicts may occur
+    -So pull all from
