@@ -1,0 +1,5 @@
+Squash and commit is to add two commits combined into one commit into Git, as it is same change
+eg: code changed in a line and changed the variable name in the same line
+This can be used during pull request from git
+
+Reword: reedit the committed text before push
